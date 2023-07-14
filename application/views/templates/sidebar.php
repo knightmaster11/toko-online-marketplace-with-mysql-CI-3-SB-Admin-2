@@ -135,7 +135,16 @@
                         </li>
 
                         
-
+                        <div class="navbar">   
+                                <ul class="nav navbar-nav   navbar-right" >    
+                                    <li>
+                                    <?php 
+                                    $keranjang = '<div class="btn btn-sm btn-primary">Keranjang Belanja : </div>'.$this->cart->total_items(). ' items'
+                                     ?>
+                                     <?php  echo anchor('dashboard/detail_keranjang', $keranjang) ?>             
+                                    </li>
+                                </ul>
+                         </div>
                         
 
                         <!-- Nav Item - User Information -->
