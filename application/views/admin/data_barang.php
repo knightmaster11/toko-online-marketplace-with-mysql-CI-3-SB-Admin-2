@@ -50,7 +50,13 @@
        	</div>
        	<div class="from-group">
        		<label>Kategori</label>
-       		<input type="text" name="kategori" class="form-control">
+       		<select class="form-control" name=" kategori"> 
+              <option>elektronik</option>
+              <option>pakaian pria</option>
+              <option>pakaian wanita</option>
+              <option>pakaiam anak-anak</option>
+              <option>peralatan olahraga</option>
+          </select>
        	</div>
        	<div class="from-group">
        		<label>harga</label>
